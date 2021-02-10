@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="3dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GREEN"
+            android:layout_gravity="center"
+            style="@style/Title"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RED"
+            android:layout_gravity="center"
+            style="@style/Title"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BLUE"
+            android:layout_gravity="center"
+            style="@style/Title"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout14"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YELLOW"
+            android:layout_gravity="center"
+            style="@style/Title"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/buttonGreen"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_margin="6dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="GREEN"
+            style="@style/TextButton"/>
+
+        <Button
+            android:id="@+id/buttonRed"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_margin="6dp"
+            android:backgroundTint="@color/purple_200"
+            android:text="RED"
+            style="@style/TextButton"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/buttonBlue"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_margin="6dp"
+            android:backgroundTint="@color/purple_200"
+            android:text="BLUE"
+            style="@style/TextButton"/>
+
+        <Button
+            android:id="@+id/buttonYellow"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_margin="6dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="YELLOW"
+            style="@style/TextButton"/>
+    </LinearLayout>
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/my_name_style"
+            android:gravity="center"
+            android:layout_marginBottom="35dp"
+            android:text="Laura Stončė"/>
+
+
+
+
+</LinearLayout>
